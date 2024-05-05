@@ -1,6 +1,6 @@
 alert("Seja bem vindo")
 
-let imagens=["./pimba/img/Bike1.jpg", "./pimba/img/Bike2.jpg", "./pimba/img/Bike3.jpg", "./pimba/img/Bike4.jpg"];
+let imagens=["./assets/img/Bike1.jpg", "./assets/img/Bike2.jpg", "./assets/img/Bike3.jpg", "./assets/img/Bike4.jpg"];
 let index = 0;
 let time =3000;
 
