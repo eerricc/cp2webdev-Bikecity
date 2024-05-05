@@ -1,0 +1,37 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-preto: #000000;
+    --cor-de-fundo: #ffffff;
+    --fonte-principal: 'Inter';
+    --botao-preto-efeito: rgb(26, 26, 27);
+}
+h1 {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 60px;
+    --primary-color: rgba(0, 0, 0, 0.87);
+    color: var(--primary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.692);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.699), var(--primary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.botaosec {
+    background-color: var(--botao-preto);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: flex;
+    text-decoration: none;
+    margin-left: 50px;
+    margin: 15px;
+    justify-content: center;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 6px;
+}
